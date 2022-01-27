@@ -2,7 +2,8 @@
 
 using namespace std;
 int main(int argc, char** argv) {
-	
+    setlocale(LC_CTYPE, "Spanish");
+	cout.precision(12);
 	
 	int numero1 = 0, numero2 = 0, suma = 0, resta = 0, multiplicacion = 0;
 	float division = 0;
