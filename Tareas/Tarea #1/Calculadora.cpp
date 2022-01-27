@@ -4,7 +4,6 @@
 using namespace std;
 int main(int argc, char** argv) {
 	
-	
 	int numero1 = 0, numero2 = 0, suma = 0, resta = 0, multiplicacion = 0;
 	float division = 0;
 	
