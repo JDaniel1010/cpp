@@ -16,9 +16,6 @@ int main(int argc, char** argv) {
     cout << " Ingrese el descuento (0, 10, 15, 20): ";
     cin >> descuento;
 
-    cout << endl;
-    cout << " El total a pagar es: " << total;
-
     calculoDescuento = (subtotal * descuento) / 100;
     calculoImpuesto = (subtotal - calculoDescuento) * 0.15;
     total = subtotal - calculoDescuento + calculoImpuesto;
