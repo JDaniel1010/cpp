@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
         calculoImpuesto = (subtotal - calculoDescuento) * 0.15;
     }
   
-    total = subtotal - calculoDescuento + calculoImpuesto;
+    total = subtotal - calculoDescuento + calculoImpuesto; 
 
     cout << endl;
     cout << " El total a pagar es: " << total;
