@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
     int nota = 0;
 
-    cout << "Ingrese la nota que obtuvo: ";
+    cout << "Ingrese la nota que obtuvo:";
     cin >> nota;
 
     if (nota == 100) {
