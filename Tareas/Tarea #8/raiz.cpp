@@ -15,12 +15,11 @@ int main(int argc, char const *argv[])
     for(int i = 1; i <= 1; i++)
     {
         numero = rand() % 20 + 1;
-        cout << numero << " ";
 
         raiz = sqrt(numero);
 
-        cout << " La raiz cuadrada del numero " << numero;
-        cout << " es: " << raiz;
+        cout << " El numero es: " << numero <<endl;
+        cout << " Su raiz cuadrada es: " << raiz;
 
 
     }
